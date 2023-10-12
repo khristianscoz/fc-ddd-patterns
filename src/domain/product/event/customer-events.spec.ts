@@ -1,9 +1,7 @@
 import EventDispatcher from "../../@shared/event/event-dispatcher";
-import CustomerCreatedEvent from "./customer-created.event";
 import ConsoleLogWhenCustomerIsCreated1Handler from "./handler/console-log-when-customer-is-created2.handler";
 import ConsoleLogWhenCustomerIsCreated2Handler from "./handler/console-log-when-customer-is-created1.handler";
 import ConsoleLogWhenCustomerAddressIsChangedHandler from "./handler/console-log-when-customer-address-is-changed.handler";
-import CustomerAddressChangedEvent from "./customer-address-changed.event";
 import CustomerFactory from "../../customer/factory/customer.factory";
 import Address from "../../customer/value-object/address";
 
