@@ -2,8 +2,8 @@ import EventDispatcher from "../../@shared/event/event-dispatcher";
 import ConsoleLogWhenCustomerIsCreated1Handler from "./handler/console-log-when-customer-is-created2.handler";
 import ConsoleLogWhenCustomerIsCreated2Handler from "./handler/console-log-when-customer-is-created1.handler";
 import ConsoleLogWhenCustomerAddressIsChangedHandler from "./handler/console-log-when-customer-address-is-changed.handler";
-import CustomerFactory from "../../customer/factory/customer.factory";
-import Address from "../../customer/value-object/address";
+import CustomerFactory from "../factory/customer.factory";
+import Address from "../value-object/address";
 
 describe("Customer events tests", () => {
     it("should handler events when customer is created", () => {

@@ -2,7 +2,7 @@ import Customer from "../entity/customer";
 import { v4 as uuid } from "uuid";
 import Address from "../value-object/address";
 import EventDispatcher from "../../@shared/event/event-dispatcher";
-import CustomerCreatedEvent from "../../product/event/customer-created.event";
+import CustomerCreatedEvent from "../../customer/event/customer-created.event";
 
 export default class CustomerFactory {
   public static create(eventDispatcher: EventDispatcher, name: string): Customer {

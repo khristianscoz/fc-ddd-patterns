@@ -1,5 +1,5 @@
 import EventDispatcher from "../../@shared/event/event-dispatcher";
-import CustomerAddressChangedEvent from "../../product/event/customer-address-changed.event";
+import CustomerAddressChangedEvent from "../../customer/event/customer-address-changed.event";
 import Address from "../value-object/address";
 
 export default class Customer {
